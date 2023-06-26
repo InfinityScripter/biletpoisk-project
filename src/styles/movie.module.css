@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+}
+
+.card {
+  width: 100%;
+  display: grid;
+  grid-template: auto / 100px auto 4.4rem;
+  gap: 1.5rem;
+  overflow: hidden;
+}
+
+.poster {
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+
+.title {
+  margin-bottom: 0.25rem;
+}
+
+.close {
+  margin-left: 1.5rem;
+}
